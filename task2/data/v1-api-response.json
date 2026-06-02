@@ -1,0 +1,84 @@
+{
+  "_meta": "Sample response shapes from our v1 NestJS backend. Field names + nesting are real, values are illustrative. The mismatch with v2 component expectations is intentional.",
+
+  "GET /api/v1/parents/{parentId}/children": {
+    "data": [
+      {
+        "child_id": "2c2dbffd-cebb-42c0-8f28-fa6c8425abae",
+        "first_name": "Kiyan",
+        "last_name": "Makkawi",
+        "academy_id": "33d44f38-20ff-41c6-beb6-24c6dbb902dd",
+        "team": {
+          "team_id": "452b353e-8918-4103-b8e8-9be00c635fce",
+          "team_name": "Under 12s"
+        },
+        "jersey_number": 7,
+        "primary_position": "MID"
+      }
+    ],
+    "pagination": { "page": 1, "page_size": 10, "total": 1 }
+  },
+
+  "GET /api/v1/players/{playerId}/sessions/latest-analysed": {
+    "session_id": "0fdb4280-9223-44b8-a1f3-39fb8e95158f",
+    "kind": "match",
+    "session_date": "2026-04-17T15:00:00Z",
+    "opponent_name": "Al Wasl Academy",
+    "competition_label": "UAE Youth League",
+    "venue": "Al Rais Academy Pitch",
+    "analysis": {
+      "status": "completed",
+      "composite_score": 66.4,
+      "scored_at": "2026-04-17T17:42:00Z",
+      "categories": {
+        "physical": 73.1,
+        "passing": 64.0,
+        "dribbling": 63.2,
+        "defending": 83.5,
+        "control": 58.7,
+        "impact": 61.0
+      },
+      "minutes_played": 55,
+      "team_outcome": "win"
+    },
+    "media": {
+      "full_match_url": "https://media.fairpl.ai/sessions/0fdb4280.../full.mp4",
+      "ai_overlay_url": null,
+      "thumbnail_url": "https://media.fairpl.ai/sessions/0fdb4280.../thumb.jpg"
+    }
+  },
+
+  "GET /api/v1/players/{playerId}/sessions/{sessionId}/highlights": {
+    "data": [
+      {
+        "highlight_uuid": "h-2026-04-17-001",
+        "event_label": "GOAL",
+        "ts_seconds_in_session": 840,
+        "clip_seconds": 14,
+        "clip_url": "https://media.fairpl.ai/clips/h-2026-04-17-001.mp4",
+        "privacy_setting": "parent_visible",
+        "ai_confidence": 0.95,
+        "flagged_by_coach": true
+      },
+      {
+        "highlight_uuid": "h-2026-04-17-002",
+        "event_label": "KEY_PASS",
+        "ts_seconds_in_session": 1560,
+        "clip_seconds": 16,
+        "clip_url": "https://media.fairpl.ai/clips/h-2026-04-17-002.mp4",
+        "privacy_setting": "parent_visible",
+        "ai_confidence": 0.89,
+        "flagged_by_coach": false
+      }
+    ],
+    "pagination": { "page": 1, "page_size": 50, "total": 5 }
+  },
+
+  "auth_notes": "All endpoints require Bearer JWT in Authorization header. Login at POST /api/v1/auth/sign-in with { email, password }. Returns { access_token, refresh_token, expires_in }. For this task, assume the token is already in process.env.FAIRPLAI_TEST_TOKEN.",
+
+  "error_shape": {
+    "status_code": 404,
+    "error_code": "PLAYER_NOT_FOUND",
+    "message": "No player exists with the supplied id."
+  }
+}
