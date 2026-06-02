@@ -1,0 +1,115 @@
+{
+  "match_id": "match_2026-05-04_alrais_vs_alwasl",
+  "total_clips_curated": 9,
+  "clips": [
+    {
+      "clip_id": "clip_001",
+      "start_timestamp_seconds": 2028,
+      "end_timestamp_seconds": 2071,
+      "headline": "Hamad Al-Mansoori Fires Inside the Box!",
+      "curator_score": 9,
+      "primary_players": [
+        "Hamad Al-Mansoori"
+      ],
+      "justification": "A high-confidence shot (0.90) from inside the 18-yard box makes this a textbook attacking highlight that every parent will want to replay."
+    },
+    {
+      "clip_id": "clip_002",
+      "start_timestamp_seconds": 2670,
+      "end_timestamp_seconds": 2714,
+      "headline": "Saeed Khalifa Strikes from Inside the Box!",
+      "curator_score": 9,
+      "primary_players": [
+        "Saeed Khalifa",
+        "Kiyan Makkawi"
+      ],
+      "justification": "A confident in-box shot by Saeed Khalifa followed immediately by a high-intensity sprint recovery from Kiyan Makkawi gives this clip both attacking drama and defensive grit."
+    },
+    {
+      "clip_id": "clip_003",
+      "start_timestamp_seconds": 2163,
+      "end_timestamp_seconds": 2205,
+      "headline": "Shot from Saeed Khalifa and Big Save by Omar Al-Sayed!",
+      "curator_score": 8,
+      "primary_players": [
+        "Saeed Khalifa",
+        "Omar Al-Sayed"
+      ],
+      "justification": "A near-perfect shot attempt (0.92 confidence) followed by a solid goalkeeper save (0.84 confidence) creates a thrilling end-to-end moment parents will love sharing."
+    },
+    {
+      "clip_id": "clip_004",
+      "start_timestamp_seconds": 1859,
+      "end_timestamp_seconds": 1910,
+      "headline": "Yousef Al-Zaabi Threads a Brilliant Key Pass to Rashid Al-Marri!",
+      "curator_score": 8,
+      "primary_players": [
+        "Yousef Al-Zaabi",
+        "Rashid Al-Marri"
+      ],
+      "justification": "Anchored by an outstanding high-confidence key pass (0.94) and a top-confidence defensive action (0.96), this clip showcases beautiful team combination play."
+    },
+    {
+      "clip_id": "clip_005",
+      "start_timestamp_seconds": 3414,
+      "end_timestamp_seconds": 3459,
+      "headline": "Kiyan Makkawi Pulls the Strings with Back-to-Back Key Passes!",
+      "curator_score": 8,
+      "primary_players": [
+        "Kiyan Makkawi",
+        "Rashid Al-Marri",
+        "Saeed Khalifa"
+      ],
+      "justification": "Two consecutive high-confidence key passes (0.91 and 0.89) by Kiyan Makkawi in quick succession perfectly capture a slick team build-up that coaches and parents will admire."
+    },
+    {
+      "clip_id": "clip_006",
+      "start_timestamp_seconds": 608,
+      "end_timestamp_seconds": 654,
+      "headline": "Omar Al-Sayed Makes a Stunning Save!",
+      "curator_score": 8,
+      "primary_players": [
+        "Omar Al-Sayed"
+      ],
+      "justification": "A high-confidence goalkeeper save (0.87) keeps the score safe, exactly the kind of heroic moment proud parents love to share."
+    },
+    {
+      "clip_id": "clip_007",
+      "start_timestamp_seconds": 4460,
+      "end_timestamp_seconds": 4571,
+      "headline": "Rashid Al-Marri's Box Sprint Recovery and Turnover Leads to Saeed Khalifa Shot!",
+      "curator_score": 8,
+      "primary_players": [
+        "Rashid Al-Marri",
+        "Hamad Al-Mansoori",
+        "Yousef Al-Zaabi",
+        "Saeed Khalifa"
+      ],
+      "justification": "A high-confidence in-box sprint recovery (0.91), an in-box turnover leading to a shot, packs defensive intensity and attacking excitement into one unmissable sequence."
+    },
+    {
+      "clip_id": "clip_008",
+      "start_timestamp_seconds": 3481,
+      "end_timestamp_seconds": 3527,
+      "headline": "Hamad Al-Mansoori Blazes Back with a Lightning Sprint Recovery!",
+      "curator_score": 7,
+      "primary_players": [
+        "Hamad Al-Mansoori",
+        "Yousef Al-Zaabi"
+      ],
+      "justification": "The highest-confidence sprint recovery in the match (0.97) paired with a strong defensive moment delivers the kind of tireless team effort that makes parents beam with pride."
+    },
+    {
+      "clip_id": "clip_009",
+      "start_timestamp_seconds": 2738,
+      "end_timestamp_seconds": 2791,
+      "headline": "Omar Al-Sayed Pulls Off Another Crucial Save!",
+      "curator_score": 7,
+      "primary_players": [
+        "Omar Al-Sayed",
+        "Rashid Al-Marri"
+      ],
+      "justification": "A confident goalkeeper save (0.83) followed by a commanding defensive clearance (0.81) showcases the team's resilience under pressure in a single compelling clip."
+    }
+  ]
+}
